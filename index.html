@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.ico">
-    <title>俺 | Ngatik Ramdhoni</title>
+<head>
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.ico">
+  <title>俺 | Ngatik Ramdhoni</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
 
   <style>
     body {
@@ -23,57 +32,109 @@
     }
 
     .tag {
-      margin: 100px 0px;
+      margin: 50px 0px;
       text-align: center;
     }
+
     .tagline {
       margin: 50px 0px;
       text-align: center;
     }
+
     @media screen and (max-width: 500px) {
       .tag {
-      margin: 50px 0px;
+        margin: 50px 0px;
       }
+
       .tagline {
-      margin: 5px 0px;
+        margin: 5px 0px;
       }
+
       .tagline .display-2 {
-      font-size: 36px;
-     }
+        font-size: 36px;
+      }
     }
+
     .social-icon .s {
       color: black;
       text-align: center;
     }
+
+    .footer {
+      margin: 50px 0px;
+      text-align: center;
+    }
   </style>
-  
+
 </head>
 
 <body>
   <div class="container">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">About Me / 俺の事</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li> -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Connect</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="tag">
-      <h5>始めまして</h5>
-      <h4>俺 は ガティック ラムドニ です</h4>
+      <!-- <h5>始めまして</h5>
+      <h4>俺 は ガティック ラムドニ です</h4> -->
     </div>
-    <div>
-        <img src="assets/img/ore.png" alt="Ore" height="500">
+
+    <div class="">
+      <img src="assets/img/ore.png" alt="Ore" height="400">
     </div>
     <div class="tagline">
-        <h2 class="display-3">I'M</h2>
-        <h1 class="display-2">NGATIK RAMDHONI</h1>
+      <h5>I'M / 俺</h5>
+      <h1 class="font-weight-normal">NGATIK RAMDHONI</h1>
+      <h3 class="font-weight-light">ガティック ラムドニ</h3>
+
+      <!-- <h3 class="display-3">I'M</h3>
+      <h2 class="display-2">NGATIK RAMDHONI</h2> -->
     </div>
+
     <div class="">
-      <p>Katanya 'tak kenal maka tak mengerti',<br>
+      <p>Katanya 'tak kenal maka tak mengerti',
         yuk kenalan dulu :)</p>
     </div>
+
     <div class="social-icon">
       <a href="https://www.instagram.com/Ramdhoni21" target="_blank"><i class="s fa fa-instagram fa-2x m-4"></i></a>
-      <a href="https://www.linkedin.com/in/ramdhoni21/" target="_blank"><i class="s fa fa-linkedin-square fa-2x m-4"></i></a>
+      <a href="https://www.linkedin.com/in/ramdhoni21/" target="_blank"><i
+          class="s fa fa-linkedin-square fa-2x m-4"></i></a>
       <a href="https://twitter.com/Ramdhoni21" target="_blank"><i class="s fa fa-twitter fa-2x m-4"></i></a>
-      <a href="https://api.whatsapp.com/send?phone=6281229789086" target="_blank"><i class="s fa fa-whatsapp fa-2x m-4"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=6281229789086" target="_blank"><i
+          class="s fa fa-whatsapp fa-2x m-4"></i></a>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div class="">
+      <span>Made with &#9749; and</span>
+      <span>Powered by &#10084; </span>
     </div>
   </div>
-  
+
 </body>
 
 </html>
